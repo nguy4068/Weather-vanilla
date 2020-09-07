@@ -1,0 +1,353 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background: linear-gradient(rgb(0, 110, 255), rgb(0, 124, 128));
+  color: white;
+  font-family: sans-serif;
+}
+.location {
+  height: 30vh;
+  width: 50%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.temperature {
+  height: 30vh;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.degree {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+.degree span {
+  margin-left: 10px;
+  font-size: 32px;
+}
+.degree .temperature-degree {
+  font-size: 35px;
+}
+
+.a01d {
+  background: url("icons/a01d.png") no-repeat;
+  width: 120px;
+  height: 120px;
+}
+.a02d {
+  background: url("icons/a02d.png") no-repeat;
+  width: 120px;
+  height: 120px;
+}
+.a01n {
+  background: url("icons/a01n.png") no-repeat;
+  width: 120px;
+  height: 120px;
+}
+.a02n {
+  background: url("icons/a02n.png") no-repeat;
+  width: 120px;
+  height: 120px;
+}
+.a03d {
+  background: url("icons/a03d.png") no-repeat;
+  width: 120px;
+  height: 120px;
+}
+.a03n {
+  background: url("icons/a03n.png") no-repeat;
+  width: 120px;
+  height: 120px;
+}
+.a04d {
+  background: url("icons/a04d.png") no-repeat;
+  width: 120px;
+  height: 120px;
+}
+.a04n {
+  background: url("icons/a04n.png") no-repeat;
+  width: 120px;
+  height: 120px;
+}
+.a05d {
+  background: url("icons/a05d.png") no-repeat;
+  width: 120px;
+  height: 120px;
+}
+.a05n {
+  background: url("icons/a05n.png") no-repeat;
+  width: 120px;
+  height: 120px;
+}
+.a06d {
+  background: url("icons/a06d.png") no-repeat;
+  width: 120px;
+  height: 120px;
+}
+.a06n {
+  background: url("icons/a06n.png") no-repeat;
+  width: 120px;
+  height: 120px;
+}
+.c01d {
+  background: url("icons/c01d.png") no-repeat;
+  width: 120px;
+  height: 120px;
+}
+.c01n {
+  background: url("icons/c01n.png") no-repeat;
+  width: 120px;
+  height: 120px;
+}
+.c02d {
+  background: url("icons/c02d.png") no-repeat;
+  width: 120px;
+  height: 120px;
+}
+.c02n {
+  background: url("icons/c02n.png") no-repeat;
+  width: 120px;
+  height: 120px;
+}
+.c03d {
+  background: url("icons/c03d.png") no-repeat;
+  width: 120px;
+  height: 120px;
+}
+.c03n {
+  background: url("icons/c03n.png") no-repeat;
+  width: 120px;
+  height: 120px;
+}
+.c04d {
+  background: url("icons/c04d.png") no-repeat;
+  width: 120px;
+  height: 120px;
+}
+.c04n {
+  background: url("icons/c04n.png") no-repeat;
+  width: 120px;
+  height: 120px;
+}
+.d01d {
+  background: url("icons/d01d.png") no-repeat;
+  width: 120px;
+  height: 120px;
+}
+.d01n {
+  background: url("icons/d01n.png") no-repeat;
+  width: 120px;
+  height: 120px;
+}
+.d02d {
+  background: url("icons/d02d.png") no-repeat;
+  width: 120px;
+  height: 120px;
+}
+.d02n {
+  background: url("icons/d02n.png") no-repeat;
+  width: 120px;
+  height: 120px;
+}
+.d03d {
+  background: url("icons/d03d.png") no-repeat;
+  width: 120px;
+  height: 120px;
+}
+.d03n {
+  background: url("icons/d03n.png") no-repeat;
+  width: 120px;
+  height: 120px;
+}
+.f01d {
+  background: url("icons/f01d.png") no-repeat;
+  width: 120px;
+  height: 120px;
+}
+.f01n {
+  background: url("icons/f01n.png") no-repeat;
+  width: 120px;
+  height: 120px;
+}
+.r01d {
+  background: url("icons/r01d.png") no-repeat;
+  width: 120px;
+  height: 120px;
+}
+.r01n {
+  background: url("icons/r01n.png") no-repeat;
+  width: 120px;
+  height: 120px;
+}
+.r02d {
+  background: url("icons/a02d.png") no-repeat;
+  width: 120px;
+  height: 120px;
+}
+.r02n {
+  background: url("icons/r02n.png") no-repeat;
+  width: 120px;
+  height: 120px;
+}
+.r03d {
+  background: url("icons/r03d.png") no-repeat;
+  width: 120px;
+  height: 120px;
+}
+.r03n {
+  background: url("icons/r03n.png") no-repeat;
+  width: 120px;
+  height: 120px;
+}
+.r04d {
+  background: url("icons/r04d.png") no-repeat;
+  width: 120px;
+  height: 120px;
+}
+.r04n {
+  background: url("icons/r04n.png") no-repeat;
+  width: 120px;
+  height: 120px;
+}
+.r05d {
+  background: url("icons/r05d.png") no-repeat;
+  width: 120px;
+  height: 120px;
+}
+.r06n {
+  background: url("icons/r06n.png") no-repeat;
+  width: 120px;
+  height: 120px;
+}
+.s01d {
+  background: url("icons/s01d.png") no-repeat;
+  width: 120px;
+  height: 120px;
+}
+.s01n {
+  background: url("icons/s01n.png") no-repeat;
+  width: 120px;
+  height: 120px;
+}
+.s02d {
+  background: url("icons/s02d.png") no-repeat;
+  width: 120px;
+  height: 120px;
+}
+.s02n {
+  background: url("icons/s02n.png") no-repeat;
+  width: 120px;
+  height: 120px;
+}
+.s03d {
+  background: url("icons/s03d.png") no-repeat;
+  width: 120px;
+  height: 120px;
+}
+.s03n {
+  background: url("icons/s03n.png") no-repeat;
+  width: 120px;
+  height: 120px;
+}
+.s04d {
+  background: url("icons/s04d.png") no-repeat;
+  width: 120px;
+  height: 120px;
+}
+.s04n {
+  background: url("icons/s04n.png") no-repeat;
+  width: 120px;
+  height: 120px;
+}
+.s05d {
+  background: url("icons/s05d.png") no-repeat;
+  width: 120px;
+  height: 120px;
+}
+.s05n {
+  background: url("icons/s05n.png") no-repeat;
+  width: 120px;
+  height: 120px;
+}
+.s06d {
+  background: url("icons/s06d.png") no-repeat;
+  width: 120px;
+  height: 120px;
+}
+.s06n {
+  background: url("icons/s06n.png") no-repeat;
+  width: 120px;
+  height: 120px;
+}
+.t01d {
+  background: url("icons/t01d.png") no-repeat;
+  width: 120px;
+  height: 120px;
+}
+.t01n {
+  background: url("icons/t01n.png") no-repeat;
+  width: 120px;
+  height: 120px;
+}
+.t02d {
+  background: url("icons/t02d.png") no-repeat;
+  width: 120px;
+  height: 120px;
+}
+.t02n {
+  background: url("icons/t02n.png") no-repeat;
+  width: 120px;
+  height: 120px;
+}
+.t03d {
+  background: url("icons/t03d.png") no-repeat;
+  width: 120px;
+  height: 120px;
+}
+.t03n {
+  background: url("icons/t03n.png") no-repeat;
+  width: 120px;
+  height: 120px;
+}
+.t04d {
+  background: url("icons/t04d.png") no-repeat;
+  width: 120px;
+  height: 120px;
+}
+.t04n {
+  background: url("icons/t04n.png") no-repeat;
+  width: 120px;
+  height: 120px;
+}
+.t05d {
+  background: url("icons/t05d.png") no-repeat;
+  width: 120px;
+  height: 120px;
+}
+.t05n {
+  background: url("icons/t05n.png") no-repeat;
+  width: 120px;
+  height: 120px;
+}
+.u00d {
+  background: url("icons/u00d.png") no-repeat;
+  width: 120px;
+  height: 120px;
+}
+.u00n {
+  background: url("icons/u00n.png") no-repeat;
+  width: 120px;
+  height: 120px;
+}
